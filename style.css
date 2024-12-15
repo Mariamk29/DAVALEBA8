@@ -1,0 +1,273 @@
+* { 
+        box-sizing: border-box;
+        margin: 0;
+        }
+ body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #D8D8D8;
+ }       
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 1160px;
+    height: 528px;
+}
+.box1 {
+    background-color: white;
+    width: 360px;
+    height: 528px;
+    border-radius: 16px;
+}
+.box2 {
+    background-color: white;
+    width: 360px;
+    height: 528px;  
+    border-radius: 16px;
+}
+.box3 {
+    background-color: white;
+    width: 360px;
+    height: 528px;
+    border-radius: 16px;
+}
+.img1 {
+    width: 360px;
+    height: 216px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+}
+.infoicon3 {
+    margin-top: 16px;
+    padding-left: 304px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    margin-left: 304px;
+    cursor: pointer;
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 230px;
+    gap: 50px;
+}
+.icons1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.maintext1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    font-weight: bold;
+    
+}
+.textbox1 {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+}
+.info1 {
+display: flex;
+justify-content: space-between;
+color: #A5ADBB;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+.price1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.innerprice1 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.description1 {
+    color: #6E798C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.discount1 {
+    font-size: 28px;
+}
+.discount2 {
+    font-size: 20px;
+    height: 28px;
+    text-decoration: line-through;
+    color: red;
+}
+.img2 {
+    width: 360px;
+    height: 216px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+}
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 230px;
+    gap: 50px;
+}
+.icons2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.maintext2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    font-weight: bold;
+    
+}
+.textbox2 {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+}
+.info2 {
+display: flex;
+justify-content: space-between;
+color: #A5ADBB;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+.price2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.innerprice2 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.description2 {
+    color: #6E798C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.discount3 {
+    font-size: 28px;
+}
+.discount4 {
+    font-size: 20px;
+    height: 28px;
+    text-decoration: line-through;
+    color: red;
+}
+.img3 {
+    width: 360px;
+    height: 216px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+}
+.header3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 230px;
+    gap: 50px;
+}
+.icons3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.maintext3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    font-weight: bold;
+    
+}
+.textbox3 {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+}
+.info3 {
+display: flex;
+justify-content: space-between;
+color: #A5ADBB;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+.price3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.innerprice3 {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.description3 {
+    color: #6E798C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.discount5 {
+    font-size: 28px;
+}
+.discount6 {
+    font-size: 20px;
+    height: 28px;
+    text-decoration: line-through;
+    color: red;
+}
+.btn {
+  width: 114px;
+  height: 44px;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.18em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #2ECC71;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
